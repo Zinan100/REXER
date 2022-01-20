@@ -19,9 +19,6 @@ async def start(client, message):
         buttons = [
             [
                 InlineKeyboardButton('🅄🄿🄳🄰🅃🄴🅂', url='https://t.me/moviespot00100')
-            ],
-            [
-                InlineKeyboardButton('🄷🄴🄻🄿', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,7 +39,6 @@ async def start(client, message):
             InlineKeyboardButton('🔎 𝐒𝐞𝐚𝐫𝐜𝐡 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/+veUIdIW2CQ5mOGU5')
             ],[
-            InlineKeyboardButton('🆘 𝐇𝐞𝐥𝐩 🆘', callback_data='help'),
             InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭🧐', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -83,7 +79,6 @@ async def start(client, message):
             InlineKeyboardButton('🔎 𝐒𝐞𝐚𝐫𝐜𝐡 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/+veUIdIW2CQ5mOGU5')
             ],[
-            InlineKeyboardButton('🆘 𝐇𝐞𝐥𝐩 🆘', callback_data='help'),
             InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭🧐', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
