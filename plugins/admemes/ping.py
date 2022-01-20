@@ -12,29 +12,6 @@ ALIVE = "വെറുതെ Alive അടിച്ചു വെറുപ്പി
 HELP = "Help ഒന്നും ഇല്ല ഓടിക്കോ...."
 REPO = "https://github.com/Zinan100/REXER"
 HI   = "HELLO പോയിട്ട് /START അടിയടോ ഇല്ലാതെ ഹി പറയാൻ മനീഷ്യൻ അല്ലാ ബോട്ടാ"
-SERVICES = "Hey, Buddy..😊
-
-Our Services..⚡️
-
-✮ File Store Bot ✅ ›› ₹90
-✮ Url Uplaoder Bot ✅ ›› ₹90
-✮ File Rename Bot ✅ ›› ₹90
-✮ Button Poster Creator Bot ›› ✅ ₹80
-✮ Movie Search Bot Inline / Group  ✅ ›› ₹125
-(If You Want To Avoid Your Public Group From Copyright Use This Bot) 
-
-Auto Filter Bot ✅
-
-✮ IMDB Version 3 Bot 🦋 ›› ₹150
-
-With IMDB | Force Channel/Group Join | Single And Double Button  | Custom IMDB Template | Multiple Group Connection | Start Message With Pic | Can Remove File Individually From Database....
-
-✮ IMDB Version 3 Bot 🦋 ›› ₹200
-(With Extra Features)
-
-With IMDB | Force Channel/Group Join | Single And Double Button  | Custom IMDB Template | Multiple Group Connection | Start Message With Pic | Can Remove File Individually From Database | Google Translate | User Information | Ban & Mute | Inline Movie Search | Photo/Video To Telegram Link | Fun Entertainment | Song Download From YouTube | Video Download From YouTube | COVID Information | Sticker ID...
-
-Contact ›› @PaidServiceMW_Bot"
 # -- Constants End -- #
 
 
