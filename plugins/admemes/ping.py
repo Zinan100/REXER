@@ -12,6 +12,7 @@ ALIVE = "വെറുതെ Alive അടിച്ചു വെറുപ്പി
 HELP = "Help ഒന്നും ഇല്ല ഓടിക്കോ...."
 REPO = "https://github.com/Zinan100/REXER"
 HI   = "HELLO പോയിട്ട് /START അടിയടോ ഇല്ലാതെ ഹി പറയാൻ മനീഷ്യൻ അല്ലാ ബോട്ടാ"
+OWNER
 # -- Constants End -- #
 
 
