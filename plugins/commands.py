@@ -34,15 +34,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕️ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️', url='https://t.me/RedFoxx_Bot?startgroup=true')
+            InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔎 𝐒𝐞𝐚𝐫𝐜𝐡 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/moviespot00100')
+            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/moviespot00100'),
+            InlineKeyboardButton('💬Group💬', url='https://t.me/moviespot001100')
             ],[
-                InlineKeyboardButton('🅷🅴🅻🅿️', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('🛠Help🛠', callback_data='help'),
+            InlineKeyboardButton('😎About😎', callback_data='about')
             ],[
-            InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭🧐', callback_data='about')
-        ]]
+            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/Zinan00100')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -76,15 +77,16 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕️ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️', url='https://t.me/RedFoxx_Bot?startgroup=true')
+            InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔎 𝐒𝐞𝐚𝐫𝐜𝐡 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/moviespot00100')
+            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/moviespot00100'),
+            InlineKeyboardButton('💬Group💬', url='https://t.me/moviespot001100')
             ],[
-                InlineKeyboardButton('🅷🅴🅻🅿️', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('🛠Help🛠', callback_data='help'),
+            InlineKeyboardButton('😎About😎', callback_data='about')
             ],[
-            InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭🧐', callback_data='about')
-        ]]
+            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/Zinan00100')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -160,7 +162,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("കുരച്ചു തപ്പട്ടേ 🧐", quote=True)
+        msg = await message.reply("കുറച്ചു തപ്പട്ടേ 🧐", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
