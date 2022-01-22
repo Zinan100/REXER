@@ -39,7 +39,7 @@ async def start(client, message):
             InlineKeyboardButton('🔎 𝐒𝐞𝐚𝐫𝐜𝐡 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/moviespot00100')
             ],[
-                InlineKeyboardButton('🆘 𝙷𝙴𝙻𝙿 🆘', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🅷🅴🅻🅿️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],[
             InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭🧐', callback_data='about')
         ]]
@@ -81,7 +81,7 @@ async def start(client, message):
             InlineKeyboardButton('🔎 𝐒𝐞𝐚𝐫𝐜𝐡 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/moviespot00100')
             ],[
-                InlineKeyboardButton('🆘 𝙷𝙴𝙻𝙿 🆘', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🅷🅴🅻🅿️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],[
             InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭🧐', callback_data='about')
         ]]
