@@ -79,7 +79,9 @@ async def start(client, message):
             InlineKeyboardButton('➕️ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️', url='https://t.me/RedFoxx_Bot?startgroup=true')
             ],[
             InlineKeyboardButton('🔎 𝐒𝐞𝐚𝐫𝐜𝐡 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊', url='https://t.me/moviespot00100')
+            ],[
+                InlineKeyboardButton('🆘 𝙷𝙴𝙻𝙿 🆘', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],[
             InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭🧐', callback_data='about')
         ]]
