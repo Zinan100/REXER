@@ -17,8 +17,11 @@
 - [x] Random pics
 - [x] ids and User info 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-
-
+- [x] tgraph 
+- [x] sticker id
+- [x] 📌pin
+- [x] 🎧song
+- [x] Google transalator
 
 <h3 align="center">ℂ𝕆ℕ𝕋𝔸ℂ𝕋<img align="center" src="https://github.com/Aadhi000/Adv-Ajax/blob/main/assets/Handshake.gif" height="33px" /></h3>
 <p align="center">
